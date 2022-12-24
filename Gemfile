@@ -23,6 +23,7 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 end
 group :development do
+  gem 'annotate'
   gem 'brakeman'
   gem 'html2haml'
   gem 'rubocop'

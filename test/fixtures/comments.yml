@@ -1,18 +1,21 @@
 # == Schema Information
 #
-# Table name: articles
+# Table name: comments
 #
 #  id         :bigint           not null, primary key
-#  title      :string
+#  commenter  :string
 #  body       :text
+#  article_id :bigint           not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
 one:
-  title: MyString
+  commenter: MyString
   body: MyText
+  article: one
 
 two:
-  title: MyString
+  commenter: MyString
   body: MyText
+  article: two
